@@ -15,4 +15,5 @@ function binarySearch(arr, target, start, end) {
 let n = 10;
 let target = 7;
 let arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19];
-console.log(binarySearch(arr, target, 0, n - 1) - 1); //
+let result = binarySearch(arr, target, 0, n - 1);
+result !== null ? console.log(result) : console.log("target값이 없습니다."); // arr배열의 4번째 위치에 7이 존재
